@@ -22,8 +22,8 @@
     <section id="hero">
       <div class="intro">
         <h2>Hello👋 I'm</h2>
-        <h1>Nkwi Cyril</h1>
-        <div class="profession"><p>Aspiring Web Developer</p></div>
+        <h1>Engr. Cyril Nkwi</h1>
+        <div class="profession"><p>Software Engineer</p></div>
       </div>
     </section>
 
@@ -45,7 +45,14 @@
             and UX design as far as the web is concerned.
             <br /><br />
             I have been writing code for over
-            <span class="yellow">2+</span> years since I enrolled into the
+            <span class="yellow">
+              <script>
+                const enrollDate = new Date("2021-09-01");
+                const currentDate = new Date();
+                const yearsOfExperience = currentDate.getFullYear() - enrollDate.getFullYear();
+                document.write(yearsOfExperience);
+              </script>
+            </span> years since I enrolled into the
             Faculty of Engineering and Tech to become a software engineer. If
             you look around you'll see the programming languages I have
             experience in with my main language being the largest in size.
@@ -66,12 +73,11 @@
     <section id="projects">
       <div class="pro-card">
         <div class="pro-about order">
-          <h1>First Portfolio</h1>
+          <h1><a href="">This Portfolio</a></h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci,
-            quisquam optio! Illo pariatur odio perferendis? Explicabo
-            consequuntur quisquam natus libero earum nemo molestiae, ipsum
-            cupiditate tempora vero culpa vitae ducimus.
+            Built entirely with HTML, CSS and Vanilla JavaScript, this portfolio
+            website is a showcase of my skills and projects as a software engineer.
+            It features a clean and modern design, easy navigation, and responsive layout.
           </p>
         </div>
         <div class="pro-image">
