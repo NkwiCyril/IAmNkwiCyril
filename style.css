@@ -16,7 +16,7 @@
       }
 
       body {
-        font-family: "Instrument Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
         background-color: var(--primary-bg);
         color: var(--text-primary);
         overflow-x: hidden;
@@ -86,13 +86,8 @@
         padding: 2rem;
       }
 
-      .intro h2 {
-        font-size: clamp(1rem, 3vw, 1.5rem);
-        color: var(--text-secondary);
-        font-weight: 400;
-        margin-bottom: 0.5rem;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+      .my-title {
+        font-family: "Instrument Serif", serif;
       }
 
       .intro h1 {
@@ -103,6 +98,23 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+      }
+
+      .intro h2 {
+        font-size: clamp(1rem, 3vw, 1.5rem);
+        color: var(--text-secondary);
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      .intro h3 {
+        width: fit-content;
+        font-size: clamp(1rem, 2.5vw, 1.3rem);
+        color: var(--text-secondary);
+        font-weight: 400;
+        margin-bottom: 1.5rem;
       }
 
       .profession {
@@ -175,7 +187,7 @@
         background: var(--card-bg);
         border: 1px solid var(--border);
         border-radius: 25px;
-        font-family: "JetBrains Mono", monospace;
+        font-family: "Poppins", monospace;
         font-size: 0.9rem;
         transition: all 0.3s ease;
       }
@@ -231,7 +243,7 @@
       .timeline-item::before {
         content: "";
         position: absolute;
-        left: -2.5rem;
+        left: -2.33rem;
         top: 0.5rem;
         width: 12px;
         height: 12px;
